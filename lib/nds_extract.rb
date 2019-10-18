@@ -30,22 +30,7 @@ def directors_totals(nds)
   # 
   #
   # Be sure to return the result at the end!
-  
-  # row_index = 0
-  # while row_index < nds.count do
-  #   element_index = 0 
-  #   while element_index <nds[row_index].count do
-  #     binding.pry #puts nds[row_index][element_index]
-  #     element_index += 1 
-  #   end
-  #   row_index +=1 
-  # end  
-    # i = 0
-    # while i < nds.count do 
-    #   jay = nds[i]
-      
-    #   i += 1
-    # end
+
   
   
 end
