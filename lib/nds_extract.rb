@@ -11,7 +11,7 @@ def directors_totals(nds)
   #
   # The Hash result be full of things like "Jean-Pierre Jeunet" => "222312123123"
  # result = {
-      #   #"Stephen Spielberg"=>1,357,566,430,
+      #   #"Stephen Spielberg"=>1357566430,
       # #  "Russo Brothers"=>2281002470,
       # # "James Cameron"=>2571020373,
       #   "Spike Lee"=>256624217,
@@ -30,7 +30,22 @@ def directors_totals(nds)
   # 
   #
   # Be sure to return the result at the end!
-
+  
+  # row_index = 0
+  # while row_index < nds.count do
+  #   element_index = 0 
+  #   while element_index <nds[row_index].count do
+  #     binding.pry #puts nds[row_index][element_index]
+  #     element_index += 1 
+  #   end
+  #   row_index +=1 
+  # end  
+    # i = 0
+    # while i < nds.count do 
+    #   jay = nds[i]
+      
+    #   i += 1
+    # end
   
   
 end
