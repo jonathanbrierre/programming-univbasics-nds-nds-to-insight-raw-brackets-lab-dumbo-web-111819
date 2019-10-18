@@ -31,21 +31,20 @@ def directors_totals(nds)
   #
   # Be sure to return the result at the end!
   
-  # row_index = 0
-  # while row_index < nds.count do
-  #   element_index = 0 
-  #   while element_index <nds[row_index].count do
-  #     binding.pry #puts nds[row_index][element_index]
-  #     element_index += 1 
-  #   end
-  #   row_index +=1 
-  # end  
-    # i = 0
-    # while i < nds.count do 
-    #   jay = nds[i]
-      
-    #   i += 1
-    # end
+  results = {}
+  director_index = 0 
+  
+  while director_index < directors_database.count do
+    movie_index = 0 
+    gross_total = 0 
+    while movie_index < directors_database[director_index][:movies].length do
+      gross_total += directors_database[director_index][:movies][movie_index][:worldwide_gross]
+      movie_index += 1 
+    end
+    results[directors_database[director_index][:name]] = gross_total
+    director_index += 1 
+  end
+  results
   
   
 end
